@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 256M
+  instances: 1
+  domain: mybluemix.net
+  name: interview-app
+  host: interview-app
+  disk_quota: 1024M
+  services:
+  - availability-monitoring-auto
+  - interview-app-db
